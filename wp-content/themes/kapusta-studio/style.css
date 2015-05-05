@@ -1,0 +1,284 @@
+/*   
+Theme Name: kapusta-studio
+Theme URI: http://kapusta-studio.ru
+Description: Тема студии "Kapusta"
+Author: Kapusta
+Author URI: http://kapusta-studio.ru
+Version: 1.0
+Tags: gray, web-studio
+*/
+
+
+/* Reset */
+
+html{
+	height:100%;
+}
+*{
+	box-sizing:border-box;
+}
+html, body, div, span, applet, object, iframe, footer, header, main, aside, article, nav,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li, menu
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	box-sizing:border-box;
+}
+body {
+	height:100%;
+	line-height: 1;
+	background:url('images/bg.png');
+	background-size: 100% auto;
+
+}
+ol, ul, menu{
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+}
+
+/******************************Тело сайта****************************/
+
+section{
+	height:100%;
+	overflow:hidden;
+	position:relative;
+}
+
+/******************************Сайдбар******************************/
+
+aside{
+	border-right:solid 2px #bbb;
+	position:fixed;
+	height:100%;
+	width:19%;
+	margin-left:1%;
+	z-index:10;
+}
+div.logo{
+	width:100%;
+	padding:7%;
+	padding-left:12.5%;
+}
+div.logo img{
+	width:100%;
+	max-width:200px;
+}
+address{
+ 	width:100%;
+	text-align:center;
+	padding:2%;
+	font:bold 0.8em sans-serif;
+}
+
+.socialbuttons, .autor{
+ 	width:100%;
+	text-align:center;
+	padding:2%;
+	font:bold 0.8em sans-serif;
+}
+.menu-vmenu-container{
+	font-size:1.2em;
+	width:85%;
+	padding:7%;
+	padding-top:16%;
+}
+a{
+	font:bold 0.5em sans-serif;
+	color:black;
+	text-decoration:none;
+}	
+nav ul li{
+	margin-top:5%;
+	width:100%;
+	max-height:55px;
+}
+
+li a{
+	display:block;
+}
+a strong{
+	padding:2% 0;
+	margin-left:10px;
+	display:block;
+	border-bottom:1px solid #fff;
+	font-family:fantasy;
+	font:bold 1.6em sans-serif;
+	color:#000;
+	width:100%;
+}
+
+a span{
+	display:block;
+	margin-left:10px;
+	padding:2.5% 0;
+	font:normal 1.1em sans-serif;
+	color:#eee;
+}
+.navdesc::after{display:block;content:".";height:0;visibility:hidden;clear:both;}
+.navicon{
+	margin-right:10px;
+	width:55px;
+	height:55px;
+	float:left;
+}
+#menu-item-1799 div{
+	background:url('images/1.png') no-repeat;
+	background-size: 100% auto;
+}
+#menu-item-1800 div{
+	background:url('images/3.png') no-repeat;
+	background-size: 100% auto;
+}
+#menu-item-1801 div{
+	background:url('images/8.png') no-repeat;
+	background-size: 100% auto;
+}
+#menu-item-1802 div{
+	background:url('images/6.png') no-repeat;
+	background-size: 100% auto;
+}
+#menu-item-1803 div{
+	background:url('images/7.png') no-repeat;
+	background-size: 100% auto;
+}
+/*****************************Контент******************************/
+
+.container{
+	width:80%;
+	margin-left:20%;
+	padding:12% 1%;
+}
+article.studio{
+	margin:0 8%;
+	margin-top:20px;
+	width:64.667%;
+	position:relative;
+}
+a.imo{
+	display:block;
+	width:31.333%;
+}
+img.imo{
+    position:relative;
+	width:115%;
+}
+div.text{
+	width:64.667%;
+	float:right;
+}
+h1{
+	font-size:4.5em;
+	font-family:fantasy;
+	line-height:0.65;
+	border-bottom:solid #bbb 3px;
+	border-top:solid #bbb 3px;
+	padding:3% 5%;
+}
+h1:first-line{
+	color:white;
+}
+blockquote,figcaption{
+	font-size:1em;
+	color:black;
+	font-family:fantasy;
+	padding:2%;
+}
+.port{
+	font-size:1em;
+	color:gray;
+	font-family:fantasy;
+	text-align:right;
+}
+p, ul.list li{
+	font-size:1em;
+	color:gray;
+	padding:0% 3%;
+	list-style: circle;
+}
+.icon{
+	position:absolute;
+	display:block;
+	top:-18%;
+	left:92%;
+	height:36%;
+}
+.button{
+	display:block;
+	width:39.333%;
+	margin-top:3%;
+	font-size:1em;
+	text-align:center;
+	padding:1%;
+	color:white;
+	background:#bbb;
+	border:solid #fff 2px;
+	border-radius:5px;
+	float:right;
+}
+article.triple{
+	width:31.333%;
+	margin-top:8%;
+	margin-left:10%;
+	float:left;
+        height:200px;
+	position:relative;
+}
+figure.triple{
+	width:23%;
+	margin-top:1%;
+	margin-left:4%;
+	float:left;
+}
+figure p{
+	width:100%;
+}
+figure p img{
+	width:100%;
+	border-bottom:solid #bbb 3px;
+	border-top:solid #bbb 3px;
+	padding:1% 1%;
+}
+.container-uslugi,.container-resh,.container-portfolio{
+    width:75%;
+	margin-left:20%;
+	padding:1% 1%;
+}
+article.triple>div.text > h1{
+	font-size:2.8em;
+}
+article.triple>div.text {
+	width:100%;
+}
+.wrap1 {
+	float:left;
+}
+.wrap2 {
+	float:right;
+}
+.contacts{
+	margin:0 auto;
+	margin-top:20px;
+	width:100%;
+	position:relative;
+}
+.container2{
+	width:95%;
+	padding:12% 9%;
+}
